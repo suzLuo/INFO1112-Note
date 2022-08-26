@@ -7,6 +7,7 @@ The lab contains a LOT of commands, you are not expected to memorise them all. B
 | Command | Description | Usage | Useful Flags * |
 | -- | -- | -- | -- |
 | ls | "List" files in a given directory | `ls /home/dylan/Desktop [-a\|-l]` | <ul><li>-a (show hidden files)</li><li>-S (sort by size)</li><li>-l (show permissions)</li></ul> |
+| find | find certain file | `find -wholename "*dir_name*/*"  -name '*.txt'` | <ul><li>-type (find f or d)</li><li>-print (display path)</li></ul> |
 | cd | "change directory" | `cd ../Desktop` (.. means "back a folder") | Not a flag, but `cd -` goes back to the previous directory you were at, great for jumping between folders! |
 | cp | "copy" file(s) or folder(s) to a new location |  `cp [-r] <target> [-t] <destination>` | <ul><li>-r (copy folders))</li><li>-t (allows multiple targets, must precede destination)</li></ul> |
 | cp | make a copy of a file in same location | `cp [-r] <target> <target_copy>` | Same as above |
@@ -17,6 +18,7 @@ The lab contains a LOT of commands, you are not expected to memorise them all. B
 | mkdir | "make directory (or 'folder')" | `mkdir <new_folder_name>` | See below for flags |
 | pwd | "print working directory", i.e. show what folder you're currently in | `pwd` | NA |
 | touch | Create empty file | `touch` | NA |
+ 
 
 \* a flag is an optional input to a command, they can help you filter output or alter command usage to make your life much easier!
 
